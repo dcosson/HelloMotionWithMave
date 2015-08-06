@@ -1,0 +1,16 @@
+PODS:
+  - CCTemplate (0.2.0)
+  - libPhoneNumber-iOS (0.8.7)
+  - MaveSDK (0.7.8):
+    - CCTemplate (= 0.2.0)
+    - libPhoneNumber-iOS (~> 0.8.3)
+
+DEPENDENCIES:
+  - MaveSDK
+
+SPEC CHECKSUMS:
+  CCTemplate: f00efa85dad31e12b8a766b8e8198eb772c71c4f
+  libPhoneNumber-iOS: 1bccd3288375d954b0b904e26061cecaa0fb83d6
+  MaveSDK: b35f6cc646458a6496d2eb89caef5d962078980b
+
+COCOAPODS: 0.37.2

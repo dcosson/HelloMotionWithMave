@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
+require 'rubygems'
+require 'motion-cocoapods'
 
 begin
   require 'bundler'
@@ -10,5 +12,8 @@ end
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
-  app.name = 'HelloMotionWithMave'
+  app.name = 'HelloMotion'
+  app.pods do
+    pod 'MaveSDK'
+  end
 end
